@@ -1,0 +1,163 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Segoe UI;
+	padding: 173px 114px 0px 114px;
+}
+
+.header{
+	background: #202124;
+	height: 126px;
+	flex-wrap: wrap;
+	position: fixed;
+	width: 100%;
+	padding: 0px 50px 0px 50px;
+	top: 0;
+	left: 0;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+}
+
+/* Elementos de la barra de navegación ================ */
+
+div#logo_nav{
+	display: flex;
+	margin: 8px 80px 0px 0px;
+}
+
+div#titulo{
+	height: 80px;
+	width: 260px;
+	color: white;
+	font-size: 50px;
+	font-family: Yu Gothic Light;
+	text-align-last: center;
+	margin: 0px 450px 0px 346px;
+}
+
+/* Imagen de fondo ================ */
+div#img_fond{
+	width: 1050px;
+	height: 600px;
+	margin: -47px 0px 120px 121px;
+}
+
+/* Fotos galerìa ================ */
+
+div#titulo1{
+	background-color: #202124;
+	height: 80px;
+	width: 1519px;
+	margin: 0px 0px 0px -114px;
+	padding: 0px 0px 0px 20px;
+	color: #FCF7F1;
+	font-family: Century Gothic;
+	font-size: 40px;
+	display: flex;
+	align-items: center;
+}
+
+div#li_titulo1{
+	background-color: white;
+	width: 900px;
+	height: 4px;
+	margin: 0px 0px 0px 10px;
+}
+
+div#fotos1{
+	background-color: #202120;
+	width: 1519px;
+	margin: 0px 0px 20px -114px;
+	padding: 30px 50px 30px 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div#fot1{
+	background-color: red;
+	height: 400px;
+	width: 700px;
+	margin: 0px 20px 0px 0px;
+	display: flex;
+}
+
+div#mejor{
+	width: 636px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div#fot2{
+	height: 225px;
+	width: 300px;
+	margin: 0px 20px 0px 0px;
+	display: flex;
+	cursor: pointer;
+}
+
+div#fot3{
+	height: 225px;
+	width: 316px;
+	display: flex;
+	cursor: pointer;
+}
+
+div#pi1{
+	background-color: #E35F21;
+	height: 50px;
+	width: 100%;
+	border-radius: 21px 21px 21px 21px;
+	-moz-border-radius: 21px 21px 21px 21px;
+	-webkit-border-radius: 21px 21px 21px 21px;
+	border: 0px solid #000000;
+	padding: 5px 0px 0px 10px;
+}
+
+div#titulo2{
+	height: 50px;
+	width: 100%;
+	font-family: Yu Gothic Light;
+	font-size: 30px;
+	color: white;
+	margin: 100px 0px 0px 0px;
+}
+
+div#fot4{
+	height: 134px;
+	width: 1411px;
+	display: flex;
+	-webkit-box-shadow: 10px 10px 26px 0px rgba(227,95,33,1);
+	-moz-box-shadow: 10px 10px 26px 0px rgba(227,95,33,1);
+	box-shadow: 10px 10px 26px 0px rgba(227,95,33,1);
+}
+
+div#fot5{
+	height: 225px;
+	width: 400px;
+	display: flex;
+	margin: 0px 20px 0px 0px;
+	cursor: pointer;
+}
+
+div#fot6{
+	height: 300px;
+	width: 400px;
+	display: flex;
+	margin: 0px 20px 0px 0px;
+	cursor: pointer;
+}
+
+div#fot7{
+	height: 300px;
+	width: 400px;
+	display: flex;
+	cursor: pointer;
+}

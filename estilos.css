@@ -1,0 +1,817 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Segoe UI;
+	padding: 173px 114px 0px 114px;
+	background-image: url("fond_men_edit.jpg");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: 2000px;
+	background-size: 100rem;
+}
+
+.header{
+	background: #202124;
+	height: 126px;
+	flex-wrap: wrap;
+	position: fixed;
+	width: 100%;
+	padding: 0px 0px 0px 50px;
+	top: 0;
+	left: 0;
+}
+
+.nav{
+	display: flex;
+}
+
+/* Elementos de la barra de navegación ================ */
+
+div#logo_nav{
+	display: flex;
+	margin: 8px 80px 0px 0px;
+}
+
+div#op_nav{
+	height: 28px;
+	width: 530px;
+	font-size: 24px;
+	font-family: Tw Cen MT Condensed;
+	color: white;
+	display: flex;
+	margin: 49px 320px 0px 0px;
+	align-items: center;
+}
+
+div#op1_nav{
+	cursor: pointer;
+	margin: 0px 20px 0px 0px;
+}
+
+div#bus_nav{
+	height: 40px;
+	width: 300px;
+	margin: 43px 0px 0px 0px;
+	display: flex;
+}
+
+#bus_nav.ytd-searchbox-spt input{
+	background-color: transparent;
+	border: none;
+	width: 86%;
+	height: 100%;
+	font-size: 24px;
+	font-family: Yu Gothic Light;
+	color: white;
+	margin: 0px 2px 0px 0px;
+}
+
+div#busq_u{
+	background: white;
+	height: 2px;
+	width: 258px;
+	margin: 85px 0px 0px -300px;
+}
+
+/* Presentación página ============================ */
+
+div#img_fondo{
+	margin: -128px 0px 0px 150px;
+}
+
+div#h1_linea{
+	background-color: #202124;
+	height: 2px;
+	width: 450px;
+	margin: 15px 0px 0px 0px;
+}
+
+div#frase{
+	display: flex;
+	margin: 0px 0px 0px 0px;
+	justify-content: center;
+}
+
+div#h1_titulo{
+	font-family: "Bradley Hand ITC";
+	height: 32px;
+	margin: 0px 6px 0px 6px;
+	align-items: center;
+	color: #202124;
+}
+
+div#anuncio{
+	background-color: transparent;
+	height: 298px;
+	width: 1291px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	margin: 30px 0px 36px 0px;
+	cursor: pointer;
+}
+
+div#ti_cup{
+	display: flex;
+}
+
+/* Sección cupones ================ */
+
+div#min_gru{
+	margin: 0px 0px 0px 10px;
+}
+
+/* div princ desc */
+div#cup_des{
+	height: 800px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px 0px 222px 0px;
+}
+
+div#cupL{
+	display: flex;
+	margin: 10px 0px 0px 0px;
+	cursor: pointer;
+}
+
+div#cupL1{
+	display: flex;
+	margin: 10px 250px 0px 0px;
+	cursor: pointer;
+}
+
+div#des_pro{
+	width: 420px;
+	margin: 0px 0px 0px 10px;
+	font-family: Yu Gothic Light;
+}
+
+div#btn_mas{
+	background-color: #202124;
+	width: 170px;
+	height: 40px;
+	margin: 0px 0px 0px 1100px;
+	font-family: Tw Cen MT Condensed;
+	font-size: 24px;
+	text-align-last: center;
+	align-items: center;
+	color: white;
+	border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border: 0px solid #000000;
+	cursor: pointer;
+}
+
+/* Sección de menú de comida ====================================================== */
+
+div#me_titl{
+	text-align-last: center;
+	color: white;
+	font-family: Tw Cen MT Condensed;
+	margin: 0px 0px 230px 0px;
+}
+
+div#bar_menu{
+	background-color: rgba(227, 95, 33, 0.7);
+	height: 80px;
+	width: 1519px;
+	margin: 0px 0px 0px -114px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div#men_clasif{
+	width: 105px;
+	font-family: Arial;
+	font-size: 25px;
+	color: white;
+	margin: 0px 25px 0px 0px;
+	cursor: pointer;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+}
+
+div#men_clasif_l{
+	width: 183px;
+	font-family: Arial;
+	font-size: 25px;
+	color: white;
+	margin: 0px 30px 0px 0px;
+	cursor: pointer;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.23);
+}
+
+div#sep_bar_dif{
+	background: rgba(44,44,44,1);
+	background: -moz-linear-gradient(top, rgba(44,44,44,1) 0%, rgba(44,44,44,1) 9%, rgba(17,17,17,1) 51%, rgba(28,28,28,1) 53%, rgba(71,71,71,1) 65%, rgba(76,76,76,1) 66%, rgba(89,89,89,1) 71%, rgba(102,102,102,1) 74%, rgba(252,247,241,1) 98%, rgba(252,247,241,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(44,44,44,1)), color-stop(9%, rgba(44,44,44,1)), color-stop(51%, rgba(17,17,17,1)), color-stop(53%, rgba(28,28,28,1)), color-stop(65%, rgba(71,71,71,1)), color-stop(66%, rgba(76,76,76,1)), color-stop(71%, rgba(89,89,89,1)), color-stop(74%, rgba(102,102,102,1)), color-stop(98%, rgba(252,247,241,1)), color-stop(100%, rgba(252,247,241,1)));
+	background: -webkit-linear-gradient(top, rgba(44,44,44,1) 0%, rgba(44,44,44,1) 9%, rgba(17,17,17,1) 51%, rgba(28,28,28,1) 53%, rgba(71,71,71,1) 65%, rgba(76,76,76,1) 66%, rgba(89,89,89,1) 71%, rgba(102,102,102,1) 74%, rgba(252,247,241,1) 98%, rgba(252,247,241,1) 100%);
+	background: -o-linear-gradient(top, rgba(44,44,44,1) 0%, rgba(44,44,44,1) 9%, rgba(17,17,17,1) 51%, rgba(28,28,28,1) 53%, rgba(71,71,71,1) 65%, rgba(76,76,76,1) 66%, rgba(89,89,89,1) 71%, rgba(102,102,102,1) 74%, rgba(252,247,241,1) 98%, rgba(252,247,241,1) 100%);
+	background: -ms-linear-gradient(top, rgba(44,44,44,1) 0%, rgba(44,44,44,1) 9%, rgba(17,17,17,1) 51%, rgba(28,28,28,1) 53%, rgba(71,71,71,1) 65%, rgba(76,76,76,1) 66%, rgba(89,89,89,1) 71%, rgba(102,102,102,1) 74%, rgba(252,247,241,1) 98%, rgba(252,247,241,1) 100%);
+	background: linear-gradient(to bottom, rgba(44,44,44,1) 0%, rgba(44,44,44,1) 9%, rgba(17,17,17,1) 51%, rgba(28,28,28,1) 53%, rgba(71,71,71,1) 65%, rgba(76,76,76,1) 66%, rgba(89,89,89,1) 71%, rgba(102,102,102,1) 74%, rgba(252,247,241,1) 98%, rgba(252,247,241,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c2c2c', endColorstr='#fcf7f1', GradientType=0 );
+	height: 80px;
+	width: 1519px;
+	margin: 400px 0px 40px -114px;
+}
+
+div#com_titulo{
+	background-color: #202124;
+	height: 80px;
+	width: 1519px;
+	margin: 0px 0px 20px -114px;
+	text-align-last: center;
+	color: white;
+	font-family: Tw Cen MT Condensed;
+	font-size: 55px;
+}
+
+/* Etiqueta que contiene el menú completo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
+div#menu{
+	height: 8440px;
+}
+
+/* Entradas =============================================== */
+div#entr{
+	height: 540px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px 0px 60px 0px;
+}
+
+div#nomb{
+	cursor: pointer;
+}
+
+div#esp_entr_1{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#sep_v{
+	background-color: black;
+	width: 2px;
+	height: 250px;
+	margin: 0px 20px 0px 20px;
+}
+
+div#esp_entr_2{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+
+div#esp_entr_3{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+
+div#esp_entr_4{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#des_men{
+	margin: 0px 0px 0px 10px;
+}
+
+/* Ramen =============================================== */
+
+div#ram{
+	height: 540px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px 0px 60px 0px;
+}
+
+div#esp_ram_1{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_ram_2{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_ram_3{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_ram_4{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+/* Sopas =============================================== */
+
+div#sopa{
+	height: 540px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px 0px 60px 0px;
+}
+
+div#esp_sop_1{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_sop_2{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_sop_3{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+/* Arroz y Noodles =============================================== */
+
+div#arroz_noodl{
+	height: 540px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px 0px 60px 0px;
+}
+
+div#esp_arr_1{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_arr_2{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_arr_3{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_arr_4{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+/* Sushi =============================================== */
+
+div#sushi{
+	height: 810px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px 0px 60px 0px;
+}
+
+div#esp_sushi_1{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_sushi_2{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_sushi_3{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_sushi_4{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_sushi_5{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+/* Aves y carnes =============================================== */
+
+div#av_car{
+	height: 810px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px 0px 60px 0px;
+}
+
+div#esp_ac_1{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_ac_2{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_ac_3{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_ac_4{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_ac_5{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+div#esp_ac_6{
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	display: flex;
+}
+
+/* Sección bebidas =============================================== */
+
+div#div_img{
+	background-color: #202124;
+	height: 144px;
+	width: 1519px;
+	margin: -20px 0px 0px -114px;
+	text-align-last: center;
+	color: white;
+	font-family: Tw Cen MT Condensed;
+	font-size: 55px;
+}
+
+/* Etiqueta principal de bebidas */
+div#bebidas{
+	background-color: black;
+	height: 750px;
+	width: 1519px;
+	margin: 0px 0px 0px -114px;
+	padding: 10px 0px 0px 0px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	font-family: Yu Gothic Light;
+	color: white;
+}
+
+div#beb_tit{
+	width: 1300px;
+	margin: 0px 0px -40px 0px;
+}
+
+div#img_vino{
+	background-color: blue;
+	width: 300px;
+	height: 400px;
+	margin: 0px -220px 0px 0px;
+}
+
+div#sepv_beb1{
+	background-color: white;
+	width: 2px;
+	height: 160px;
+	margin: 0px 70px 0px 70px;
+}
+
+div#esp_beb_5{
+	height: 200px;
+	width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div#titulo_cerv{
+	height: 24px;
+	margin: 0px 299px 0px 0px;
+	cursor: pointer;
+}
+
+div#cerv_nac{
+	width: 300px;
+}
+
+div#cerv_imp{
+	width: 300px;
+}
+
+/* Divisón granos de café */
+div#img_div_caf{
+	height: 518px;
+	width: 1520px;
+	margin: -20px 0px 0px -114px;
+	text-align-last: center;
+	color: white;
+	font-family: Tw Cen MT Condensed;
+	font-size: 55px;
+}
+
+/* Sección postres =============================================== */
+
+div#com_titulo_post{
+	background-color: #5A2012;
+	height: 80px;
+	width: 1519px;
+	margin: 0px 0px 20px -114px;
+	text-align-last: center;
+	color: #FCF7F1;
+	font-family: Tw Cen MT Condensed;
+	font-size: 75px;
+}
+
+div#img_div_choc{
+	height: 609px;
+	width: 1520px;
+	margin: -20px 0px 0px -114px;
+	text-align-last: center;
+	color: white;
+	font-family: Tw Cen MT Condensed;
+	font-size: 55px;
+}
+
+div#postr{
+	height: 1310px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin: -80px 0px 60px 0px;
+}
+
+div#postr_1{
+	width: 50%;
+}
+
+div#img_fond_post{
+	width: 50%;
+	height: 1300px;
+	padding: 0px 0px 0px 3px;
+}
+
+div#esp_post_1{
+	background-color: #202124;
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	color: white;
+	display: flex;
+	border-radius: 38px 38px 38px 38px;
+	-moz-border-radius: 38px 38px 38px 38px;
+	-webkit-border-radius: 38px 38px 38px 38px;
+	border: 0px solid #000000;
+}
+
+div#esp_post_2{
+	background-color: #202124;
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	color: white;
+	display: flex;
+	margin: 10px 0px 0px 0px;
+	border-radius: 38px 38px 38px 38px;
+	-moz-border-radius: 38px 38px 38px 38px;
+	-webkit-border-radius: 38px 38px 38px 38px;
+	border: 0px solid #000000;
+}
+
+div#esp_post_3{
+	background-color: #202124;
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	color: white;
+	display: flex;
+	margin: 10px 0px 0px 0px;
+	border-radius: 38px 38px 38px 38px;
+	-moz-border-radius: 38px 38px 38px 38px;
+	-webkit-border-radius: 38px 38px 38px 38px;
+	border: 0px solid #000000;
+}
+
+div#esp_post_4{
+	background-color: #202124;
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	color: white;
+	display: flex;
+	margin: 10px 0px 0px 0px;
+	border-radius: 38px 38px 38px 38px;
+	-moz-border-radius: 38px 38px 38px 38px;
+	-webkit-border-radius: 38px 38px 38px 38px;
+	border: 0px solid #000000;
+}
+
+div#esp_post_5{
+	background-color: #202124;
+	width: 620px;
+	height: 250px;
+	font-family: Yu Gothic Light;
+	color: white;
+	display: flex;
+	margin: 10px 0px 0px 0px;
+	border-radius: 38px 38px 38px 38px;
+	-moz-border-radius: 38px 38px 38px 38px;
+	-webkit-border-radius: 38px 38px 38px 38px;
+	border: 0px solid #000000;
+}
+
+/* Ordenar =============================================== */
+
+div#esp_ordenar{
+	background-color: #202124;
+	height: 80px;
+	width: 1519px;
+	margin: 0px 0px 20px -114px;
+	padding: 15px;
+}
+
+div#ordenar{
+	width: 200px;
+	height: 50px;
+	padding: 5px;
+	margin-left: 1250px;
+	text-align-last: center;
+	color: white;
+	font-family: Tw Cen MT Condensed;
+	font-size: 35px;
+	cursor: pointer;
+}
+
+/* Otros =============================================== */
+div#otras_opc{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 0px 0px 120px 0px;
+}
+
+div#galeria{
+	background-color: #202124;
+	width: 550px;
+	height: 400px;
+	padding: 20px 0px 0px 46px;
+	margin: 0px 300px 0px 0px;
+	color: white;
+	font-family: Yu Gothic Light;
+	font-size: 20px;
+	font-size: 35px;
+}
+
+div#ubi{
+	background-color: #202124;
+	width: 250px;
+	height: 80px;
+	color: white;
+	margin: -100px 20px 0px 0px;
+	text-align-last: center;
+	padding: 10px 0px 0px 0px;
+	border-radius: 24px 24px 24px 24px;
+	-moz-border-radius: 24px 24px 24px 24px;
+	-webkit-border-radius: 24px 24px 24px 24px;
+	border: 0px solid #000000;
+}
+
+div#p_log{
+	height: 150px;
+	width: 200px;
+	margin: -150px 0px 0px 1090px;
+}
+
+/* Contactar =============================================== */
+
+div#cont{
+	background-color: #202124;
+	width: 1519px;
+	height: 240px;
+	margin: 0px 0px 0px -114px;
+	padding: 10px 0px 10px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#s_a_d{
+	height: 80px;
+	font-family: Tw Cen MT Condensed;
+	color: white;
+	display: flex;
+	font-size: 24px;
+	cursor: pointer;
+	margin: 0px 150px 0px 0px;
+}
+
+div#app{
+	font-family: Tw Cen MT Condensed;
+	color: white;
+	font-size: 24px;
+	cursor: pointer;
+	margin: 0px 150px 0px 0px;
+}
+
+div#contacto{
+	font-family: Tw Cen MT Condensed;
+	color: white;
+	font-size: 24px;
+	justify-content: center;
+	margin: 0px 150px 0px 0px;
+}
+
+div#ic_red{
+	display: flex;
+}
+
+div#icon_reds{
+	height: 50px;
+	width: 50px;
+	display: flex;
+	cursor: pointer;
+}
+
+div#icon_reds1{
+	height: 50px;
+	width: 50px;
+	display: flex;
+	margin: 0px 0px 0px 20px;
+	cursor: pointer;
+}
+
+div#dat_cont{
+	font-family: Tw Cen MT Condensed;
+	color: white;
+	font-size: 24px;
+	margin: 0px 150px 0px 0px;
+}

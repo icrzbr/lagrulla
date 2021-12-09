@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>La Grulla</title>
+	<link rel="shortcut icon" href="icono.png">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body style="background-color: #FCF7F1">
+	<!-- Barra de navegación ================================================ -->
+	<header class="header">
+		<nav class = "nav">
+			<div id = "logo_nav">
+				<img src="La Grulla_n.png" width="154" height="110">
+			</div>
+			<div id = "op_nav">
+				<div id = "op1_nav" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'"><p>INICIO</p></div>
+				<div id = "op1_nav" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'"><p>PIDE AQUÍ</p></div>
+				<div id = "op1_nav" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'"><p>MENÚ</p></div>
+				<div id = "op1_nav" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'"><p>CUPONES</p></div>
+				<div id = "op1_nav" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'"><p>SUCURSALES</p></div>
+				<div id = "op1_nav" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'"><p>NOVEDADES</p></div>
+			</div>
+			<div id = "bus_nav" class="ytd-searchbox-spt">
+				<input id = "busq" type="search" placeholder="Buscar aquí..." name="busqueda">
+				<img src="bus1.png" onmouseover="this.src='bus2.png'"
+				onmouseout="this.src='bus1.png'" width="40" height="40">
+			</div>
+			<div id = busq_u></div>
+		</nav>
+	</header>
+
+	<!-- Imagen de fondo y frase========================================= -->
+	<div id = "img_fondo"><img src="fondo.jpg"></div>
+	<div id = "frase">
+		<div id = "h1_linea"></div>
+		<div id = "h1_titulo"><h1>El arte de la comida oriental</h1></div>
+		<div id = "h1_linea"></div>
+	</div>
+	<br>
+
+	<!-- Anuncios y promociones =============================================== -->
+	<div id = "anuncio">
+		<div id = "img_anun"><img src="fondorest.gif" width="1291" height="306"></div></div>
+	<div id = "ti_cup">
+		<font face="Tw Cen MT Condensed" size="6" color="#202124">
+			<h2>Hoy en La Grulla</h2>
+		</font>
+		<div id = "min_gru"><img src="grulla_ed.png" height="55" width="33"></div>
+	</div>
+	<font face = "Tw Cen MT Condensed" color = "#202124" size="5">
+		<h3>Cupones y Descuentos</h3>
+	</font>
+	<div id = "cup_des">
+		<div id = "cupL" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'">
+			<img src="promo/arros3.jpg" width="406" height="175">
+			<div id = "des_pro">
+				<p>Arma tu Trío de Arroz creando una combinación para probar distintos		sabores:</p>
+				<ul>
+					<li>Short rib fried rice</li>
+					<li>Chili crab fried rice</li>
+					<li>Pineapple and ginger rice</li>
+					<li>Truffle mushroom fried rice</li>
+				</ul>
+				<p>Por $129</p>
+			</div>
+		</div>
+		<div id = "cupL" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'">
+			<img src="promo/dum1.png" width="407" height="239">
+			<div id = "des_pro">
+				<p>Ocho piezas de wontons cocidos al vapor acompañados de alguna limonada (elección)</p>
+				<br><p>Por $175</p>
+			</div>
+		</div>
+		<div id = "cupL1" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'">
+			<img src="promo/lo.jpg" width="406" height="304">
+			<div id = "des_pro">
+				<p>Fideos chinos, combinados con vegetales y acompañados de res, pollo, cerdo y camarones.</p>
+				<br><p>Por $199</p>
+				<p>Elección de una sola proteína $177</p>
+			</div>
+		</div>
+		<div id = "btn_mas" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'">
+			<p>VER MÁS ➦</p>
+		</div>
+	</div>
+
+	<!-- Menú de comida ================================================================-->
+	<!-- Presentación ==========================================================-->
+	<div id = "me_titl">
+		<font size="15">
+			<h1>M E N Ú</h1>
+		</font>
+		<font size="5">
+			<h2>Platillos hechos con ingredientes de la mejor calidad con recetas clásicas.</h2>
+		</font>
+	</div>
+	<div id = "bar_menu">
+		<div id = "men_clasif" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'">
+			<p>Entradas</p>
+		</div>
+		<div id = "men_clasif" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'">
+			<p>Ramen</p>
+		</div>
+		<div id = "men_clasif" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'">
+			<p>Sopas</p>
+		</div>
+		<div id = "men_clasif_l" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'">
+			<p>Arroz y Noodles</p>
+		</div>
+		<div id = "men_clasif" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'">
+			<p>Sushi</p>
+		</div>
+		<div id = "men_clasif_l" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'">
+			<p>Aves y Carnes</p>
+		</div>
+		<div id = "men_clasif" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'">
+			<p>Bebidas</p>
+		</div>
+		<div id = "men_clasif" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'">
+			<p>Postres</p>
+		</div>
+	</div>
+
+	<!-- Menú ====================================================================-->
+	<div id = "menu">
+		<!-- barra separación ==================================================-->
+		<div id = "sep_bar_dif"></div>
+		<!-- Entradas ==========================================================-->
+		<div id = "com_titulo">
+			<p>E N T R A D A S</p>
+			<font size="3"><p>門票</p></font>
+		</div>
+		<div id = "entr">
+			<div id = "esp_entr_1">
+				<img src="menu/entradas/chicken.jpg" width="370" height="246">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>CHICKEN LETTUCE WRAPS</p></div>
+					<br>
+					<p align="justify">Combinación de pollo, champiñones, cebollín y castaña, preparados en wok, acompañada de hojas de lechuga.</p>
+					<br>
+					<p>$194</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_entr_2">
+				<img src="menu/entradas/crab.jpg" width="370" height="246">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>HAND FOLDED CRAB WONTON</p></div>
+					<br>
+					<p align="justify">Seis crujientes wontons de cangrejo, acompañados de salsa de ciruela.</p>
+					<br>
+					<p>$179</p>
+				</div>
+			</div>
+			<div id = "esp_entr_3">
+				<img src="menu/entradas/ds.jpg" width="370" height="246">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>DYNAMITE SHRIMP</p></div>
+					<br>
+					<p align="justify">Camarones rebozados con salsa picante.</p>
+					<br>
+					<p>$199</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_entr_4">
+				<img src="menu/entradas/dum.jpg" width="370" height="246">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>DUMPLINGS (8 PZAS)</p></div>
+					<br>
+					<p align="justify">Ocho piezas de wontons cocidos al vapor o pan-fried de camarón, cerdo o vegetales acompañados de salsa especial.</p>
+					<br>
+					<p>$159</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Ramen ==========================================================-->
+		<div id = "com_titulo">
+			<p>R A M E N</p>
+			<font size="3"><p>拉麵</p></font>
+		</div>
+		<div id = "ram">
+			<div id = "esp_ram_1">
+				<img src="menu/ramen/kotsu.jpeg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>KOTSU</p></div>
+					<br>
+					<p align="justify">Ramen con fideos de tu elección, acompañado de un rollo de rib eye y pollo, huevo cocido, cebollín, elote dulce, champiñón asado, servido con tocino crujiente y un toque de aceite de ajonjolí picante.</p>
+					<br>
+					<p>128 g</p>
+					<p>$189</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_ram_2">
+				<img src="menu/ramen/sut.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>SUTEKI</p></div>
+					<br>
+					<p align="justify">Ramen con fideos de tu elección, acompañado de filete de res (25 g), shiitake, huevo cocido y cebollín, servido con un toque de shichimi y aceite de ajonjolí picante.</p>
+					<br>
+					<p>139 g</p>
+					<p>$209</p>
+				</div>
+			</div>
+			<div id = "esp_ram_3">
+				<img src="menu/ramen/spicy.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>SPICY MISO RAMEN</p></div>
+					<br>
+					<p align="justify">Noodles artesanales con caldo de miso rojo ligeramente picante acompañado de vegetales con rebanadas de cerdo (114g) o pollo (114g).</p>
+					<br>
+					<p>139 g</p>
+					<p>$220</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_ram_4">
+				<img src="menu/ramen/tor.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>TORI-MEN</p></div>
+					<br>
+					<p align="justify">Ramen con fideos de tu elección, acompañado de pollo (35 g), cebollín, zanahoria, huevo cocido, servido con chile de árbol, en un fondo oscuro de res con curry.</p>
+					<br>
+					<p>139 g</p>
+					<p>$209</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Sopas ==========================================================-->
+
+		<div id = "com_titulo">
+			<p>S O P A S</p>
+			<font size="3"><p>湯盤</p></font>
+		</div>
+		<div id = "sopa">
+			<div id = "esp_sop_1">
+				<img src="menu/sopas/chang.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>CHANG´S CHICKEN SOUP</p></div>
+					<br>
+					<p align="justify">Sopa con fideos, pollo y un toque ligeramente picante y especiado.</p>
+					<br>
+					<p>155 g</p>
+					<p>$119</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_sop_2">
+				<img src="menu/sopas/hot.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>HOT & SOUR SOUP</p></div>
+					<br>
+					<p align="justify">Delicioso caldo picante y especiado, con tofu, pollo, brotes de bambu y huevo.</p>
+					<br>
+					<p>150 g</p>
+					<p>$129</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_sop_3">
+				<img src="menu/sopas/tori.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>TORISOZUI</p></div>
+					<br>
+					<p align="justify">Pechuga de pollo (45g) con champiñón, huevo, espinaca, cebollín arroz y shichimi.</p>
+					<br>
+					<p>145 g</p>
+					<p>$99</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+
+		</div>
+		<!-- Arroz y Noodles ==========================================================-->
+
+		<div id = "com_titulo">
+			<p>A R R O Z · Y · N O O D L E S</p>
+			<font size="3"><p>米飯和麵條</p></font>
+		</div>
+		<div id = "arroz_noodl">
+			<div id = "esp_arr_1">
+				<img src="menu/arroz/donburi.png">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>DONBURI DE POLLENO ORITAL</p></div>
+					<br>
+					<p align="justify">Pechuga de pollo (90 g), zanahoria, pepino, calabaza y pimiento, marinado con aderezo oriental.</p>
+					<br>
+					<p>160 g</p>
+					<p>$128</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_arr_2">
+				<img src="menu/arroz/pad.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>PAD THAI</p></div>
+					<br>
+					<p align="justify">Noodles de arroz, huevo, tofu y vegetales; decorado con cacahuate, cilantro y limón con salsa Pad Thai. Acompañado de camarón y pollo o la elección de una sola proteína.</p>
+					<br>
+					<p>200 g</p>
+					<p>$184</p>
+				</div>
+			</div>
+			<div id = "esp_arr_3">
+				<img src="menu/arroz/sing.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>SINGAPORE STREET NOODLES</p></div>
+					<br>
+					<p align="justify">Delgados fideos de arroz, combinados con camarones, pollo, jitomate, cilantro, ajo y un toque de curry.</p>
+					<br>
+					<p>182 g</p>
+					<p>$179</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_arr_4">
+				<img src="menu/arroz/yakim.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>YAKIMESHI</p></div>
+					<br>
+					<p align="justify">Arroz frito con verduras, huevo, carne y camarón (50g). Con salsa Tampico o Tampico habanero 50g Con salsa chipotle 40g.</p>
+					<br>
+					<p>160 g</p>
+					<p>$120</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Sushi ==========================================================-->
+
+		<div id = "com_titulo">
+			<p>S U S H I</p>
+			<font size="3"><p>壽司</p></font>
+		</div>
+		<div id = "sushi">
+			<div id = "esp_sushi_1">
+				<img src="menu/sushi/cali.png">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>CALIFORNIA ROLL</p></div>
+					<br>
+					<p align="justify">Rollo de tampico, queso crema, pepino y cubierto de ajonjolí.</p>
+					<br>
+					<p>190 g</p>
+					<p>$139</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_sushi_2">
+				<img src="menu/sushi/salm.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>SALMON MISO</p></div>
+					<br>
+					<p align="justify">Salmón, esparrago, pepino y salsa de sake; envuelto en láminas de salmón flameado con una salsa de Sake.</p>
+					<br>
+					<p>202 g</p>
+					<p>$155</p>
+				</div>
+			</div>
+			<div id = "esp_sushi_3">
+				<img src="menu/sushi/spicy_crab.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>SPICY CRAB SPHEARS</p></div>
+					<br>
+					<p align="justify">Camarón tempurizado, queso crema y pepino, con esferas spicy de tampico, queso crema, parmesano y chile serrano en panko.</p>
+					<br>
+					<p>195 g</p>
+					<p>$124</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_sushi_4">
+				<img src="menu/sushi/tuna.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>TUNA TOAST</p></div>
+					<br>
+					<p align="justify">Atún, aguacate, kakiague de wonton y kakiage de poro, cubierto de ajonjolí; espolvoreado con kakiague wonton y chile serrano.</p>
+					<br>
+					<p>192 g</p>
+					<p>$149</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_sushi_5">
+				<img src="menu/sushi/warrior.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>WARRIOR ROLL</p></div>
+					<br>
+					<p align="justify">Kanikama tempurizado, queso crema, aguacate y chiles toreados; envuelto de kakiague de zanahoria.</p>
+					<br>
+					<p>210 g</p>
+					<p>$144</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+		</div>
+
+		<!-- Aves y Carnes ==========================================================-->
+
+		<div id = "com_titulo">
+			<p>A V E S · Y · C A R N E S</p>
+			<font size="3"><p>家禽和肉類</p></font>
+		</div>
+		<div id = "av_car">
+			<div id = "esp_ac_1">
+				<img src="menu/av_car/chang_chicken.png">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>CHANG'S SPICY CHICKEN</p></div>
+					<br>
+					<p align="justify">Láminas de pechuga de pollo rebozadas en una salsa que combina especias y tonos agridulces.</p>
+					<br>
+					<p>255 g</p>
+					<p>$224</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_ac_2">
+				<img src="menu/av_car/coconut.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>COCONUT CURRY CHICKEN</p></div>
+					<br>
+					<p align="justify">Láminas de pollo y vegetales salteados al wok, acompañados de salsa curry, leche de coco y cacahuates. (170 g) 930 Cal.</p>
+					<br>
+					<p>246 g</p>
+					<p>$222</p>
+				</div>
+			</div>
+			<div id = "esp_ac_3">
+				<img src="menu/av_car/crispy.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>CRISPY HONEY CHICKEN</p></div>
+					<br>
+					<p align="justify">Piezas de pollo preparado en una salsa agridulce y servidos sobre fideos de arroz fritos.</p>
+					<br>
+					<p>240 g</p>
+					<p>$219</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_ac_4">
+				<img src="menu/av_car/duck.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>THE DUCK</p></div>
+					<br>
+					<p align="justify">Medio pato cocinado al estilo Cantonés, servido con pepinos y una mezcla de vegetales con una infusión de cítricos.</p>
+					<br>
+					<p>450 g</p>
+					<p>$461</p>
+				</div>
+			</div>
+			<div id = "esp_ac_5">
+				<img src="menu/av_car/kung.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>KUNG PAO CHICKEN</p></div>
+					<br>
+					<p align="justify">De Sichuan y Hunan, piezas de pechuga de pollo combinadas con chiles secos, apio, cacahuates y salsa Kung Pao.</p>
+					<br>
+					<p>228 g</p>
+					<p>$222</p>
+				</div>
+			</div>
+			<div id = "sep_v"></div>
+			<div id = "esp_ac_6">
+				<img src="menu/av_car/sesam.jpg">
+				<div id = "des_men">
+					<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='#282923'"><p>SESAME CHICKEN</p></div>
+					<br>
+					<p align="justify">Láminas de pechuga de pollo, brócoli, pimiento y cebolla. El jengibre, el picante y el ajo le dan un toque único.</p>
+					<br>
+					<p>234 g</p>
+					<p>$213</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bebidas ==========================================================-->
+		<div id = "com_titulo">
+			<p>B E B I D A S</p>
+		</div>
+		<div id = "div_img"><img src="otros/barra_beb.png"></div>
+		<div id = "bebidas">
+			<div id = "beb_tit">
+				<font face="Tw Cen MT Condensed" size="7"><h2>Bebidas sin alcohol</h2></font>
+			</div>
+			<div>
+				<div id = "nomb" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'"><p>CAFÉ y TÉ</p></div>
+				<ul>
+					<li>Americano (162.6 ml)</li>
+					<li>Expresso sencillo (44.4 ml)</li>
+					<li>Expresso doble (88.7 ml)</li>
+					<li>Cappuccno (177.4 ml)</li>
+				</ul>
+			</div>
+			<div id = "sepv_beb1"></div>
+			<div>
+				<div id = "nomb" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'"><p>REFRESCOS Y AGUA</p></div>
+				<ul>
+					<li>Coca-Cola® | Coca-Cola Light® $20</li>
+					<li>Fanta® $20</li>
+					<li>Mundet® $20</li>
+					<li>Leche (354 ml) $18</li>
+					<li>Cieñ Natural (600 ml) $18</li>
+				</ul>
+			</div>
+			<div id = "sepv_beb1"></div>
+			<div>
+				<div id = "nomb" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'"><p>LIMONADAS</p></div>
+				<ul>
+					<li>Limonada (400 ml) $28</li>
+					<li>Fresa (400 Ml) $32</li>
+					<li>Naranjada (400 ml) $28</li>
+					<li>Jengibre (400 ml) $30</li>
+				</ul>
+			</div>
+			<div id = "img_vino"><img src="otros/vino.jpg" width="300" height="400"></div>
+			<div id = "beb_tit">
+				<font face="Tw Cen MT Condensed" size="7"><h2>Bebidas con alcohol</h2></font>
+			</div>
+			<div>
+				<div id = "nomb" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'"><p>VINO BLANCO</p></div>
+				<ul>
+					<li>Bouza Do Rei (Blanco): Albariño, España Botella (750 ml)</li>
+					<li>Calvet (Tinto): Cabernet, Francia Botella (750 ml)</li>
+					<li>Casa Madero Shiraz (Tinto): Shiraz, México Copa (177.4 ml) | botella (750 ml)</li>
+					<li>Bela (Tinto): Tempranillo, España Copa (177.4 ml) | botella (750 ml)</li>
+				</ul>
+			</div>
+			<div id = "sepv_beb1"></div>
+			<div id = "esp_beb_5">
+				<div id = "titulo_cerv" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'"><p>CERVEZAS</p></div>
+				<div id = "cerv_nac">
+					<p>Nacionales</p>
+					<ul>
+						<li>XX (350 ml) $23</li>
+						<li>Tecate Light (350 ml) $20</li>
+						<li>Bohemia Clara (355 ml) $24.5</li>
+						<li>Bohemia Obscura (355 ml) $24.5</li>
+						<li>Sol (350 ml) $21</li>
+						<li>Indio (350 ml) $23</li>
+					</ul>
+				</div>
+				<div id = "cerv_imp">
+					<p>Importadas</p>
+					<ul>
+						<li>Heineken (355 ml) $26</li>
+						<li>HeIneken 0.0% (250 ml) $20</li>
+						<li>Amstel ultra (355 ml) $22</li>
+						<li>Michelada cubana $40</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+
+		<!-- Postres ==========================================================-->
+		<div id = "com_titulo_post">
+			<p>P O S T R E S</p>
+		</div>
+		<div id = "img_div_choc"><img src="otros/chocolate.jpg"></div>
+		<div id = "postr">
+			<div id = "postr_1">
+				<div id = "esp_post_1">
+					<img src="menu/postres/chang.png">
+					<div id = "des_men">
+						<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='white'"><p>CHANG’S APPLE CRUNCH</p></div>
+						<br>
+						<p align="justify">Seis crujientes wraps rellenos de manzana, servidos calientes y acompañados de helado de vainilla y un ligero toque de canela. 1500 Cal.</p>
+						<br>
+						<p>$153</p>
+					</div>
+				</div>
+				<div id = "esp_post_2">
+					<img src="menu/postres/choc.jpg">
+					<div id = "des_men">
+						<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='white'"><p>CHOCOLATE CAKE</p></div>
+						<br>
+						<p align="justify">Pastel de chocolate decorado con chispas de chocolate semiamargo, Servido con frutos rojos. 1770 Cal.</p>
+						<br>
+						<p>$57</p>
+					</div>
+				</div>
+				<div id = "esp_post_3">
+					<img src="menu/postres/crep.jpg">
+					<div id = "des_men">
+						<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='white'"><p>CREP</p></div>
+						<br>
+						<p align="justify">Crepa con base de plátano, fresa, cajeta y nuez.</p>
+						<br>
+						<p>$68</p>
+					</div>
+				</div>
+				<div id = "esp_post_4">
+					<img src="menu/postres/helado.png">
+					<div id = "des_men">
+						<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='white'"><p>HELADO</p></div>
+						<br>
+						<p align="justify">PaVainilla, Chocolate o Fresa</p>
+						<br>
+						<p>$57</p>
+					</div>
+				</div>
+				<div id = "esp_post_5">
+					<img src="menu/postres/pay.jpg">
+					<div id = "des_men">
+						<div id = "nomb" onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='white'"><p>PAY HELADO DE LIMÓN</p></div>
+						<br>
+						<p align="justify">Tradicional pay de limón.</p>
+						<br>
+						<p>$45</p>
+					</div>
+				</div>
+			</div>
+			<div id = "img_fond_post"><img src="otros/ice - copia.jpg"></div>
+		</div>
+		<div id = "esp_ordenar">
+			<div id = "ordenar" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'"><p>Ordena aquí ▶</p></div>
+		</div>
+		<!-- separacion cafe =====================================-->
+		<div id = "img_div_caf"><img src="otros/caf.jpg" width="1520" height="518"></div>
+	</div>
+	<!-- fin <div> menu =====================================-->
+
+	<!-- Galería =====================================-->
+	<div id = "otras_opc">
+		<map name = "map_gal">
+			<area shape="rect" coords="1,1,543,830" href="Galeria/galeria.html">
+		</map>
+		<div id = "galeria">
+			<img src="otros/gale.png" width="458" height="300" usemap="#map_gal">
+			<p>Ver galería</p>
+		</div>
+		<div id = "ubi">
+			<h2>Ubicaciones ➣</h2>
+			<a href="https://www.google.com.mx/maps/search/La+Grulla+chinese+food/@19.6475199,-99.100472,11z/data=!3m1!4b1" target="_Blank"><font face="Yu Gothic Light"><p>Encuentra restaurantes cercanos</p></font></a>
+		</div>
+		<div id = "p_log"><img src="grull_log.png" width="200" height="150"></div>
+	</div>
+
+	<!-- Contactar =====================================-->
+	<div id = "cont">
+		<div id = "s_a_d">
+			<div id = "s_a_d_titulo" onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'">
+				<p>SERVICIO A DOMICILIO</p>
+				<img src="iconos/sad.png" width="61" height="50" onmouseover="this.src='iconos/sad1.png'" onmouseout="this.src='iconos/sad.png'">
+			</div>
+		</div>
+		<div id = "app"  onMouseover="this.style.color='#6D6E6A'" onMouseout="this.style.color='white'">
+			<p>DESCARGA NUESTRA APP</p>
+			<br>
+			<img src="iconos/apps.jpg" width="122" height="130">
+		</div>
+		<div id = "contacto">
+			<p>REDES SOCIALES</p>
+			<div id = "ic_red">
+				<div id = "icon_reds"><img src="iconos/facebook.png"  onmouseover="this.src='iconos/facebook1.png'" onmouseout="this.src='iconos/facebook.png'"></div>
+				<div id = "icon_reds1"><img src="iconos/instagram.png" onmouseover="this.src='iconos/instagram1.png'" onmouseout="this.src='iconos/instagram.png'"></div>
+				<div id = "icon_reds1"><img src="iconos/twitter.png"  onmouseover="this.src='iconos/twitter1.png'" onmouseout="this.src='iconos/twitter.png'"></div>
+			</div>
+		</div>
+		<div id = "dat_cont">
+			<div onMouseover="this.style.color='#E35F21'" onMouseout="this.style.color='white'">
+				<p>DATOS DE CONTACTO</p>
+				<br>
+				<ul>
+					<li>IVAN</li>
+					<li>PROGRAMACIÓN WEB 1</li>
+					<li>GRUPO 1507</li>
+					<li>PROYECTO FINAL</li>
+				</ul>
+			</div>
+		</div>
+		<div><img src="iconos/gr_n.png" height="155" width="116"></div>
+	</div>
+
+</body>
+</html>
