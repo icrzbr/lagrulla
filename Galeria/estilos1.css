@@ -161,3 +161,28 @@ div#fot7{
 	display: flex;
 	cursor: pointer;
 }
+
+/* Fotos galería 2 :::: ================ */
+div#fotos2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div#c1{
+	margin: 0px 20px 0px 0px;
+}
+
+div#c2{
+	margin: 0px 0px 0px 20px;
+}
+
+div#c3{
+	margin: 0px -50px 0px 0px;
+}
+
+div#c4{
+	height: 515px;
+	width: 350px;
+	margin: -120px 0px 0px 200px;
+}
