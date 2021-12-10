@@ -814,4 +814,5 @@ div#dat_cont{
 	color: white;
 	font-size: 24px;
 	margin: 0px 150px 0px 0px;
+	cursor: pointer;
 }
