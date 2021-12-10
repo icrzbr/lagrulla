@@ -239,6 +239,7 @@ div#com_titulo{
 /* Etiqueta que contiene el menú completo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 div#menu{
 	height: 8440px;
+	width: 100%;
 }
 
 /* Entradas =============================================== */
