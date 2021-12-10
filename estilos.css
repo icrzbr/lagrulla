@@ -29,10 +29,6 @@ body{
 	left: 0;
 }
 
-.nav{
-	display: flex;
-}
-
 /* Elementos de la barra de navegación ================ */
 
 div#logo_nav{
@@ -244,7 +240,8 @@ div#com_titulo{
 /* Etiqueta que contiene el menú completo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-*/
 div#menu{
 	height: 8440px;
-	width: 100%;
+	width: 1300px;
+	justify-content: center;
 }
 
 /* Entradas =============================================== */
