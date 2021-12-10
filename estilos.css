@@ -6,11 +6,6 @@
 body{
 	font-family: Segoe UI;
 	padding: 173px 114px 0px 114px;
-	background-image: url("fond_men_edit.jpg");
-	background-repeat: no-repeat;
-	background-position-x: center;
-	background-position-y: 2000px;
-	background-size: 100rem;
 }
 
 .header{
@@ -129,7 +124,7 @@ div#cup_des{
 	height: 800px;
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0px 0px 222px 0px;
+	margin: 0px 0px 85px 0px;
 }
 
 div#cupL{
@@ -169,6 +164,16 @@ div#btn_mas{
 
 /* Sección de menú de comida ====================================================== */
 
+div#pres_men{
+	background-image: url(fond_men_edit.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 1519px;
+	height: 1012px;
+	margin: 0px 0px 0px -114px;
+	padding: 110px 0px 0px 0px;
+}
+
 div#me_titl{
 	text-align-last: center;
 	color: white;
@@ -179,8 +184,7 @@ div#me_titl{
 div#bar_menu{
 	background-color: rgba(227, 95, 33, 0.7);
 	height: 80px;
-	width: 1519px;
-	margin: 0px 0px 0px -114px;
+	width: 100%;
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -222,7 +226,7 @@ div#sep_bar_dif{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c2c2c', endColorstr='#fcf7f1', GradientType=0 );
 	height: 80px;
 	width: 1519px;
-	margin: 400px 0px 40px -114px;
+	margin: 0px 0px 40px -114px;
 }
 
 div#com_titulo{
