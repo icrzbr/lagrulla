@@ -3,12 +3,6 @@
 	box-sizing: border-box;
 }
 
-.centrar-imagen img {
-    width: 100%; /* Siempre que la resolución de pantalla sea inferior que el ancho de la imagen, ocupará el 100% */
-    max-width: 751px; /* Definimos el ancho máximo; el ancho de la imagen original, para evitar que siga ampliándose cuando la resolución de pantalla sea superior a éste */
-    height: auto; /* Dejamos que el navegador muestre automáticamente el alto siempre proporcional al ancho de la imagen */
-}
-
 body{
 	font-family: Segoe UI;
 	padding: 173px 114px 0px 114px;
@@ -18,6 +12,7 @@ body{
 	background-position-y: 2000px;
 	background-size: 100rem;
 }
+
 .resolucion {
     width: 99%;
     text-align: center;
