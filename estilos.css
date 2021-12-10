@@ -13,9 +13,8 @@ body{
 	background-size: 100rem;
 }
 
-.resolucion {
-    width: 99%;
-    text-align: center;
+.nav{
+	display: flex;
 }
 
 .header{
